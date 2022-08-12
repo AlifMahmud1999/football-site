@@ -1,0 +1,140 @@
+body{
+    margin:5% 0 0 0;
+
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    display: flex;
+    column-gap: 20%;
+    background-color: #161616;
+    color: white;
+    padding: 30px 90px 0 90px;
+    border-radius: 30px;
+    margin:0 10% 10%;
+}
+.top-line{
+    font-size: 70px;
+    font-weight: 600;
+}
+.banner-text{
+    width: 100%;
+    padding-bottom: 30px;
+}
+.player-pic{
+    display: flex;
+    justify-content:end;
+    align-items: flex-end;
+    margin-bottom: 0;
+}
+
+.banner-text button{
+    background-color: #DD0000;
+    color: white;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+}
+.menu{
+    background-color: #161616;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    row-gap: 30px;
+    padding: 30px;
+    width: 312px;
+    height: 312px;
+    padding-top: 70px;
+    
+}
+.options{
+    width: 230px;
+    height: 64px;
+    background-color: white;
+    color: #161616;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.options  h5 a{
+    text-decoration: none;
+    color: #161616;
+
+}
+.selected{
+    background: #DD0000;
+}
+.selected h5 a {
+    color: #ffffff;
+}
+
+.options h5{
+    position: relative;
+    bottom: 5px;
+}
+.photo-banner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.fixture-date{
+    text-align: center;
+    margin:0;
+}
+
+.fixture-text{
+    text-align: center;
+}
+.fixture{
+    width: 312px;
+    height: 242px;
+    border: 2px solid #E8E8E8;
+    padding: 10px;
+    border-radius: 10px;
+}
+.fixtures{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+main{
+
+    margin:0 10% 10%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 0;
+}
+
+.footer{
+    background-color: black;
+    margin-bottom:0 ;
+    padding-bottom: 0%;
+}
+.footer-content{
+    text-align: center;
+    color: #E8E8E8;
+    margin:0 10% ;
+}
+.footer-content h3{
+    padding: 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links a{
+    text-decoration: none;
+    color: #E8E8E8;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+/* tablet query */
+@media screen and (max-width:"834px") and (min-width:"375px") {
+    
+
+}
